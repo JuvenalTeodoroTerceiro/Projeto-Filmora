@@ -1,5 +1,5 @@
 .lista-filmes{
-  max-width: 800px;
+  max-width: 600px;
   margin: 14px auto;
 }
 
@@ -21,7 +21,7 @@
   width: 800px;
   max-width: 100%;
   max-height: 700px;
-  object-fit: cover;
+  object-fit: block;
   display: block;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -32,7 +32,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px, 0px;
-  font-size: 36px;
+  font-size: 28px;
   background-color: #116FEB;
   text-decoration: none;
   color: white;
