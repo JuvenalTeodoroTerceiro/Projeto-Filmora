@@ -1,0 +1,39 @@
+
+.favoritos{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.favoritos h1{
+  margin-bottom: 14px;
+}
+
+.favoritos spanfavoritos{
+  font-size: 18px;
+}
+
+.favoritos ul{
+  width: 720px;
+}
+
+.favoritos ul li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.favoritos div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favoritos div a {
+  text-decoration: none;
+  color: #116feb;
+  margin-right: 14px;
+}
