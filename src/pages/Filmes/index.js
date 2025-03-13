@@ -46,7 +46,7 @@ function Filmes(){
     const hasFilmes = filmesSalvos.some((filmeSalvo) => filmeSalvo.id === filme.id)
 
     if(hasFilmes){
-      toast.warn('Esse filmeja esta na lista')
+      toast.warn('Esse filme ja esta na lista')
       return;
     }
 
